@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mvbook-captcha" />
+        <module name="mvbook-email" />
+        <module name="mvbook-persist" />
+        <module name="mvbook-web" />
+        <module name="mvnbook-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mvbook-captcha" target="1.8" />
+      <module name="mvbook-email" target="1.8" />
+      <module name="mvbook-persist" target="1.8" />
+      <module name="mvbook-web" target="1.8" />
+      <module name="mvnbook-parent" target="1.8" />
+      <module name="mvnbook-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
